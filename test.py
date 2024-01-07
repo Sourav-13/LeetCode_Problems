@@ -1,3 +1,4 @@
-n=[1,2,3]
-print(sum(n))
-
+n=97
+while(n>=-22):
+    n=n-11
+    print(n)
