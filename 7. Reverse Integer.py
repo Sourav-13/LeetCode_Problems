@@ -2,7 +2,7 @@ class Solution:
     def reverse(self, x: int) -> int:
         c = x
         x = abs(x)
-        revNum =1
+        revNum =0
         while(x!=0):
             d = x%10
             revNum = revNum*10 + d
